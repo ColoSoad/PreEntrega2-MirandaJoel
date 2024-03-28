@@ -1,0 +1,13 @@
+.contenedor {
+    height: 850px;
+    background-image: linear-gradient(to bottom, rgba(2, 70, 91, 0.5), rgba(0, 0, 38, 0.5)), url('../../assets/img/tienda.jpg');
+    background-position: center;
+    background-size: cover;
+    /* backdrop-filter: blur(5px);
+    box-shadow: 1px 1px 2px black;
+    font-size: 5em;
+    color: rgb(249, 91, 0);
+    border: 6px solid #000;
+    border-color: rgb(249, 91, 0);
+    text-shadow: 1px 1px 2px black; */
+}
