@@ -37,3 +37,19 @@
 .dropdown-menu {
     background-color: rgb(249, 91, 0);
 }
+
+.collapse {
+    padding-left: 430px;
+}
+button,
+.collapsed {
+    color: rgb(249, 91, 0) !important;
+    background-color: rgb(249, 91, 0) !important;
+    border-color: #2b2f32;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 991px) {
+    .collapse {
+        padding-left: 0px;
+    }
+}
