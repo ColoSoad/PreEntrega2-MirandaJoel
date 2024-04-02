@@ -1,44 +1,50 @@
 [
     {
         "id": 1,
-        "producto": "Carroway Seed",
-        "precio": "$1.33",
-        "detalle": "Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.\n\nIn sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.\n\nSuspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.",
-        "img": "http://dummyimage.com/248x100.png/dddddd/000000"
+        "category": "Pantalones",
+        "producto": "Jeans clásico",
+        "precio": "24560",
+        "detalle": "Jeans estilo clásico de doble costura, muy resistente y excelente cálidad",
+        "img": "../src/assets/img/clasico.jpg"
     },
     {
         "id": 2,
-        "producto": "Tuna - Loin",
-        "precio": "$0.40",
-        "detalle": "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
-        "img": "http://dummyimage.com/218x100.png/ff4444/ffffff"
+        "category": "Pantalones",
+        "producto": "Jeans oversize",
+        "precio": "46980",
+        "detalle": "Jeans estilo oversize de simple costura, excelente cálidad de origen europeo",
+        "img": "../src/assets/img/oversize.jpg"
     },
     {
         "id": 3,
-        "producto": "Olive - Spread Tapenade",
-        "precio": "$0.00",
-        "detalle": "Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
-        "img": "http://dummyimage.com/222x100.png/ff4444/ffffff"
+        "category": "Remeras",
+        "producto": "Remera clásica lisa",
+        "precio": "12856",
+        "detalle": "Remera clasica 100% algodón, excelente cálidad de origen europeo",
+        "img": "../src/assets/img/clasica.jpg"
     },
     {
         "id": 4,
-        "producto": "Butter Sweet",
-        "precio": "$5.98",
-        "detalle": "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",
-        "img": "http://dummyimage.com/220x100.png/ff4444/ffffff"
+        "category": "Remeras",
+        "producto": "Remera oversize",
+        "precio": "25980",
+        "detalle": "Remera oversize de algodón, buena cálidad con doble costura de origen china",
+        "img": "../src/assets/img/oversize-remera.jpg"
     },
     {
         "id": 5,
-        "producto": "Chutney Sauce - Mango",
-        "precio": "$2.48",
-        "detalle": "Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.",
-        "img": "http://dummyimage.com/237x100.png/5fa2dd/ffffff"
+        "category": "Remeras",
+        "producto": "Chomba",
+        "precio": "2.48",
+        "detalle": "Chomba con cuello mao, de excelente calidad con doble costura, origen europeo",
+        "img": "../src/assets/img/chomba.jpg"
     },
     {
         "id": 6,
-        "producto": "Chicken - White Meat, No Tender",
-        "precio": "$8.67",
-        "detalle": "Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.",
-        "img": "http://dummyimage.com/233x100.png/5fa2dd/ffffff"
+        "category": "Pantalones",
+        "producto": "Jeans elástizado",
+        "precio": "36540",
+        "detalle": "Jeans chupin de doble costura, resistente, excelente cálidad de origen chino",
+        "img": "../src/assets/img/chupin.jpg"
     }
 ]

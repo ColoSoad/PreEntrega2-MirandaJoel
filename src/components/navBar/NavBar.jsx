@@ -5,11 +5,12 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import '../navBar/NavBar.css';
 import '../cartWidget/CartWidget.css';
 import { CartWidget } from '../cartWidget/CartWidget';
+import { NavLink } from 'react-router-dom';
 export const NavBar = () => (
     <>
         <Navbar expand="lg" className="bg-dark">
             <Container>
-                <Navbar.Brand href="#home">
+                <Navbar.Brand href="/">
                     <div className="logo">
                         <span className="brand">KLOT</span>
                         <span>HES</span>
@@ -19,14 +20,26 @@ export const NavBar = () => (
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
                         <NavDropdown title="Tienda" id="basic-nav-dropdown">
-                            <NavDropdown.Item href="#action/3.1">T-shirts</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.2">Pants</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3">Sneakers</NavDropdown.Item>
+                            <NavDropdown.Item to="category/Remeras" as={NavLink}>
+                                T-shirts
+                            </NavDropdown.Item>
+                            <NavDropdown.Item to="category/Pantalones" as={NavLink}>
+                                Pants
+                            </NavDropdown.Item>
+                            <NavDropdown.Item to="category/zapatillas" as={NavLink}>
+                                Sneakers
+                            </NavDropdown.Item>
                             <NavDropdown.Divider />
-                            <NavDropdown.Item href="#action/3.4">Glasses</NavDropdown.Item>
+                            <NavDropdown.Item to="category/lentes" as={NavLink}>
+                                Glasses
+                            </NavDropdown.Item>
                         </NavDropdown>
-                        <Nav.Link href="#home">Contact</Nav.Link>
-                        <Nav.Link href="#link">About</Nav.Link>
+                        <Nav.Link to="#home" as={NavLink}>
+                            Contact
+                        </Nav.Link>
+                        <Nav.Link to="#link" as={NavLink}>
+                            About
+                        </Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
                 <CartWidget />
